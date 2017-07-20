@@ -29,6 +29,10 @@ img#logo {
     overflow: auto;
 }
 
+.logo {
+  display:none;
+}
+
 .reveal {
   font-family: Helvetica, "sans-serif";
   font-size: 40px;
