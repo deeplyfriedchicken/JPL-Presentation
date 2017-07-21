@@ -230,5 +230,15 @@
 				]
 			});
 		</script>
+		<script>
+			setTimeout(function() {
+				const sections = document.querySelectorAll('.pdf-page')
+				sections.forEach(function (section) {
+					let logo = section.querySelector('img.logo')
+					console.log(logo)
+				})
+				console.log('hello')
+			}, 1000)
+		</script>
 	</body>
 </html>
